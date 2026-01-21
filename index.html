@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MediServices Pharmacy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">MediServices Pharmacy</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Your local pharmacy in Ghana</h2>
+      <p>Quality medicines, professional advice, and convenient services for the community.</p>
+      <div class="buttons">
+        <a class="btn" href="tel:+233000000000">Call</a>
+        <a class="btn btn-outline" href="contact.html">Get Directions</a>
+      </div>
+      <p class="note">Not affiliated with any similarly named businesses outside Ghana.</p>
+    </section>
+
+    <section class="card">
+      <h3>Quick info</h3>
+      <ul>
+        <li><strong>Location:</strong> [Area, City], Ghana</li>
+        <li><strong>Hours:</strong> [Mon–Sat 8:00–18:00]</li>
+        <li><strong>Phone:</strong> +233 00 000 0000</li>
+        <li><strong>WhatsApp:</strong> +233 00 000 0000</li>
+      </ul>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Services</h3>
+        <p>We offer prescription support, OTC medicines, health advice, and basic tests.</p>
+        <a href="services.html">View services →</a>
+      </div>
+      <div class="card">
+        <h3>Meet the CEO</h3>
+        <p>[CEO Name] leads MediServices Pharmacy with a focus on safe, accessible healthcare.</p>
+        <a href="about.html">About us →</a>
+      </div>
+      <div class="card">
+        <h3>Contact</h3>
+        <p>Call or WhatsApp us for enquiries, availability, and directions.</p>
+        <a href="contact.html">Contact →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> MediServices Pharmacy (Ghana)</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
